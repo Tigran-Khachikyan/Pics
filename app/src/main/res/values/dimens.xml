@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="pic_max_height">300dp</dimen>
+    <dimen name="pic_margin_horizontal">16dp</dimen>
+    <dimen name="pic_margin_top">30dp</dimen>
+    <dimen name="pic_margin_bottom">2dp</dimen>
+    <dimen name="pic_margin_bottom_last_item">38dp</dimen>
+    <dimen name="button_margin_bottom">54dp</dimen>
+    <dimen name="button_margin_top">23dp</dimen>
+    <dimen name="button_height">45dp</dimen>
+</resources>

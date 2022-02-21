@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#4BD0F1</color> //appbar, toolbar
+    <color name="primary_variant">#4B84F1</color> //statusbar
+    <color name="secondary">#478AD4</color> //btn
+    <color name="on_secondary">#FBFBFE</color>
+    <color name="on_primary">#FFFFFF</color> //content
+    <color name="background">#FFFFFF</color>
+</resources>

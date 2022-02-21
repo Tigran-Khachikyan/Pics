@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="progressBar" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/secondary</item>
+    </style>
+
+</resources>

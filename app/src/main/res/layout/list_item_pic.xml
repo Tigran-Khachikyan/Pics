@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="2dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:orientation="vertical"
+            android:paddingStart="16dp"
+            android:paddingBottom="16dp"
+            tools:ignore="RtlSymmetry">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/on_secondary"
+                android:textSize="28sp"
+                app:fontFamily="@font/gilroy_bold"
+                tools:text="Автор 3" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1900г."
+                android:textColor="@color/on_secondary"
+                android:textSize="20sp"
+                app:fontFamily="@font/gilroy_regular" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>
